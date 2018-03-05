@@ -7,15 +7,15 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-bfa932ce.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-bfa932ce.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo">
+    <img src="images/logo.png" alt="logo">
   </a>
 
   <!-- Right Navigation -->
@@ -57,49 +57,19 @@
 
     <div id="home">
   <div class="home-content">
-    <!-- <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" /> -->
+      <img src="../images/logo-acc9c0ec.png" width="200" alt="Logo" />
 
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-              <div class="card-category">Popular</div>
-              <div class="card-description">
-                <h2>Le Wagon Shanghai</h2>
-                <p>Very cool city, the best</p>
-              </div>
-              <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-              <a class="card-link" href="#" ></a>
-            </div>
+      <div class="container" id="home-flats">
 
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
-              <div class="card-category">Popular</div>
-              <div class="card-description">
-                <h2>Le Wagon Berlin</h2>
-                <p>Very cool city, the best</p>
-              </div>
-              <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/AlexDeGroote">
-              <a class="card-link" href="#" ></a>
-            </div>
-          </div>
+      <!-- Access data.flats with owner's name as key -->
 
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/paris');">
-              <div class="card-category">Popular</div>
-              <div class="card-description">
-                <h2>Le Wagon Paris</h2>
-                <p>Very cool city, the best</p>
-              </div>
-              <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/ChrisvC">
-              <a class="card-link" href="#" ></a>
-            </div>
-          </div>
+      <!-- Inject flat data in template -->
+      <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="img-circle" alt="Papillard" />
+      <p>Boris' home</p>
+      <h1>Small flat in Tokyo</h1>
+      <p>Tokyo, Japan</p>
 
-        </div>
-      </div>
-
+    </div>
   </div>
 </div>
 
